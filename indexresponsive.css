@@ -1,0 +1,189 @@
+@media screen and (max-width:426px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    nav{
+        position: fixed;
+        background-color: var(--body);
+    }
+
+    /* HERO SECTION */
+    .hero1{
+        width: 425px;
+        align-items: flex-start;
+    }
+
+    .heroheading{
+        font-size: 30px;
+    }
+
+    .hero2{
+    align-items: flex-end;
+    }
+
+    .heroimg{
+        width: 425px;
+        margin-left:-10px;
+    }
+
+
+    /* ABOUT SECTION */
+    .aboutimage{
+        width: 350px;
+        margin: 90px 40px 0 40px;
+    }
+
+    .aboutimg{
+        width: 425px;
+    }
+
+    .about{
+        width: 425px;
+    }
+
+    .abth1,.abth2,.abtp{
+        margin-left: 20px;
+    }
+
+
+    /* CONTACT SECTION */
+    .contacth1, .contacth2{
+        margin-left: 20px;
+    }
+
+    .formfill{
+        margin-left: -30px;
+    }
+
+    .eml{
+        margin-top: 20px;
+    }
+
+    #exampleFormControlTextarea1 {
+        width: 250px;
+    }
+
+    .contactform{
+        width: 425px;
+        overflow: hidden;
+    }
+
+    .contactimage{
+        width: 425px;
+    }
+
+    .contactimg{
+        width: 425px;
+    }
+
+
+    /* FOOTER SECTION */
+    .footercontainer{
+        text-align: center;
+    }
+
+    .footer1, .footer2, .footer3 {
+        margin-top: 0px;
+        align-self: center;
+    }
+
+    .footer1, .footer2{
+        margin-bottom: -190px;
+    }
+}
+
+@media screen and (max-width:376px) {
+
+    .hero1{
+        width: 375px;
+        align-items: flex-start;
+    }
+
+    .hero2{
+        align-items: flex-end;
+        width: 375px;
+    }
+
+    .heroheading, .herotext{
+        margin-left: -30px;
+    }
+
+    .herobtn{
+        margin-left: 30px;
+    }
+
+    .about{
+        width: 375px;
+    }
+
+    .aboutimage{
+        width: 300px;
+        margin: 90px 40px 0 40px;
+    }
+
+    .aboutimg{
+        width: 375px;
+    }
+
+    .contactform{
+        width: 375px;
+        overflow: hidden;
+    }
+
+    .contactimage{
+        width: 375px;
+    }
+    .contactimg{
+        width: 375px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:321px) {
+    .hero1 {
+        width: 320px;
+        align-items: flex-start;
+    }
+
+    .hero2 {
+        align-items: flex-end;
+        width: 320px;
+    }
+
+    .aboutimg{
+        width: 320px;
+    }
+
+    .aboutimage{
+        width: 270px;
+        margin: 90px 20px 0 25px;
+    }
+
+    .about{
+        width: 320px;
+    }
+
+    .abth1, .abth2, .abtp {
+        margin-left: 15px;
+    }
+
+
+    .contactform{
+        width: 320px;
+        overflow: hidden;
+    }
+
+    .formfill{
+        margin-left: -70px;
+    }
+
+    .contactimage{
+        width: 320px;
+    }
+    .contactimg{
+        width: 320px;
+    }
+}}

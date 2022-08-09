@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IllusAI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/91e547386c.js" crossorigin= "anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="indexresponsive.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+   <!-- Nav Section -->
+    <nav>
+        <div class="logo">Illus<span>AI</span></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="#aboutt">About</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#contact" class="navcon">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#"><button class="register" type="button">Register</button></a></li>
+            <li><i id="dark-mode-btn" class="toggler far fa-solid fa-moon"></i></li>
+        </ul>
+      </nav>
+      
+
+      <!-- Hero Section -->
+      <div class="herocontainer">
+        <div class="hero1">
+            <h1 class="heroheading">AI Powered 3d <br>Illustration Generator</h1>
+                <p class="herotext">Generate ultra realistic 3d illustrations for your projects super easy <br>and fast without any problem.</p>
+                <a href="#"><button class="herobtn" type="button" class="btn">Start Now  <svg width="30" height="19" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.68877 0.63438L23.0754 10.3846C23.2815 10.483 23.4555 10.6377 23.5773 10.8308C23.6991 11.024 23.7637 11.2476 23.7637 11.476C23.7637 11.7043 23.6991 11.928 23.5773 12.1211C23.4555 12.3143 23.2815 12.469 23.0754 12.5674L2.68877 22.3176C2.47978 22.4177 2.24643 22.4556 2.01649 22.4269C1.78654 22.3982 1.56968 22.3041 1.39172 22.1557C1.21375 22.0072 1.08216 21.8108 1.01261 21.5898C0.943058 21.3687 0.938472 21.1324 0.999398 20.9088L3.03903 13.4314C3.064 13.3398 3.11539 13.2575 3.18679 13.1949C3.2582 13.1323 3.34646 13.092 3.44057 13.0792L13.3194 11.7372C13.3607 11.7313 13.3998 11.7149 13.4329 11.6895C13.4659 11.664 13.4918 11.6305 13.5081 11.5921L13.5255 11.5321C13.5332 11.4781 13.5223 11.4231 13.4947 11.376C13.4672 11.3289 13.4245 11.2925 13.3736 11.2728L13.3204 11.2583L3.45121 9.91626C3.35728 9.90327 3.26922 9.86297 3.19801 9.80035C3.12679 9.73773 3.07554 9.65556 3.05064 9.56406L0.999398 2.04413C0.938225 1.82049 0.942624 1.58398 1.01207 1.36276C1.08152 1.14155 1.21308 0.944966 1.3911 0.796415C1.56911 0.647864 1.78608 0.553612 2.01615 0.524885C2.24621 0.496157 2.47969 0.534164 2.68877 0.63438V0.63438Z" fill="white"/>
+                    </svg>
+                </button></a>
+        </div>
+        <div class="hero2">
+            <img src="images/pic1.png" alt="" class="img-fluid heroimg">
+        </div>
+      </div>
+
+
+      <!-- About Section -->
+      <div class="aboutcontainer" id="aboutt">
+        <div class="aboutimg">
+            <img src="images/pic2.png" alt="" class="img-fluid aboutimage">
+        </div>
+        <div class="about">
+            <h1 class="abtbg">About</h1>
+            <h1 class="abth1 ">About Us</h1>
+            <h1 class="abth2 ">“A positive mindset brings <br>positive things.”</h1>
+            <p class="abtp ">IllusAI’s mission is to accelerate the development of AI applications. <br> Better data leads to more performant models. Performant models lead to faster
+            <br>deployment. We help deliver value from AI investments faster with better data by <br>providing an end-to-end solution to manage the entire ML lifecycle.</p>
+        </div>
+      </div>
+
+
+      <!-- Contact Section -->
+      <div class="contactcontainer" id="contact">
+        <div class="contactform">
+            <h1 class="contactbg ">Contact</h1>
+            <h1 class="contacth1 ">Contact Us</h1>
+            <h1 class="contacth2 ">What can we do to help?</h1>
+            <form class="row g-3 formfill">
+                <div class="col-md-6">
+                    <label for="inputName4" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="inputName4" required>
+                </div>
+                <div class="col-md-6 eml">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
+                </div>
+                <div class="mb-lg-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn submit">Send <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.13213 0.100505L22.5188 8.34809C22.7248 8.43132 22.8988 8.56219 23.0206 8.72556C23.1424 8.88894 23.2071 9.07815 23.2071 9.2713C23.2071 9.46446 23.1424 9.65366 23.0206 9.81704C22.8988 9.98042 22.7248 10.1113 22.5188 10.1945L2.13213 18.4421C1.92314 18.5268 1.68979 18.5589 1.45984 18.5346C1.2299 18.5103 1.01304 18.4307 0.835075 18.3051C0.657106 18.1796 0.525518 18.0135 0.455968 17.8265C0.386417 17.6395 0.381832 17.4396 0.442757 17.2504L2.48239 10.9254C2.50736 10.8479 2.55875 10.7783 2.63015 10.7253C2.70156 10.6723 2.78982 10.6383 2.88393 10.6275L12.7628 9.49229C12.8041 9.48732 12.8432 9.4734 12.8762 9.45189C12.9093 9.43038 12.9352 9.40201 12.9515 9.36952L12.9689 9.31877C12.9765 9.27308 12.9657 9.22654 12.9381 9.18672C12.9105 9.1469 12.8678 9.11614 12.817 9.09943L12.7638 9.08715L2.89457 7.95195C2.80064 7.94097 2.71258 7.90688 2.64137 7.85391C2.57015 7.80094 2.5189 7.73144 2.494 7.65403L0.442757 1.293C0.381585 1.10382 0.385984 0.903759 0.455429 0.716639C0.524875 0.529519 0.656441 0.363227 0.834457 0.237569C1.01247 0.111912 1.22944 0.0321847 1.45951 0.00788419C1.68957 -0.0164164 1.92305 0.0157337 2.13213 0.100505Z" fill="white"/>
+                        </svg>
+                        </button>
+                </div>
+            </form>
+        </div>
+        <div class="contactimage">
+            <img class="contactimg img-fluid" src="images/pic5.png" alt="">
+        </div>
+      </div>
+
+
+      <!-- Footer Section -->
+      <div class="footercontainer">
+        <div class="footer1">
+            <h1 class="fphone">Phone</h1>
+            <p class="fnum"><a href="tel:+23398536733">+23398536733</a></p>
+            <h1 class="fnav">Navigation</h1>
+            <p class="navp"><a href="">Scientific Research Platform</a></p>
+            <p class="navp"><a href="">Enterprise Search Software</a></p>
+            <p class="navp"><a href="">Structured vs. Unstructured Data</a></p>
+            <p class="navp"><a href="">API</a></p>
+            <p class="navp"><a href="">Terms</a> </p>
+            <p class="navp"><a href="">Privacy</a></p>
+            <p class="navp"><a href="">Sitemap</a></p>
+        </div>
+        <div class="footer2">
+            <h1 class="fphone">Inquiries</h1>
+                <p class="fnum"><a href="mailto:info@example.com">info@example.com</a></p>
+                <h1 class="fnav">Follow us</h1>
+                <span>
+                    <a href=""><img src="images/akar-icons_facebook-fill.svg" alt=""></a>
+                    <a href=""><img src="images/bxl_instagram-alt.svg" alt=""></a>
+                    <a href=""><img src="images/ant-design_twitter-circle-filled.svg" alt=""></a>
+                </span>
+        </div>
+        <div class="footer3">
+            <h1 class="footbrand">Illus<br><span>AI</span></h1>
+            <p class="navp">Lets generate!!</p>
+        </div>
+      </div>
+
+    <div class="foot">
+        <p class="footline"></p>
+        <p class="copy">© 2022 IllusAI. All rights reserved...</p>
+    </div>
+
+
+      <script src="script.js"></script>
+</body>
+</html>
