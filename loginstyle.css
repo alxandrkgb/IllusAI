@@ -175,6 +175,73 @@
     .logincontainer p{
         margin: 35px 0 0 220px;
     }
-    
+}
 
+
+@media screen and (max-width:426px){
+    body{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .logincontainer{
+        width: 425px;
+        overflow: hidden;
+        border: 5px solid red;
+    }
+
+    .login{
+        width: 425px;
+    }
+    
+    .toggler{
+        margin: 50px 0 0 360px;
+    }
+
+    .logbg{ 
+        width: 425px;
+        font-size: 250px;
+        margin: -30px 0 0 -300px;
+    }
+ 
+    .logh1{
+        margin: -190px 0 -30px 80px;
+    }
+
+    .logform{
+        width: 425px;
+        overflow: hidden;
+    }
+
+    .email{
+        margin: 0 0 -30px 80px;
+    }
+
+    .password{
+        margin-left: 80px;
+    }
+
+    .email input, .password input{
+        width: 270px;
+    }
+
+    .fgtpswd {
+        margin: 10px 0 0 190px;
+    }
+ 
+    .mb-lg-3, .col-12 {
+        margin-left: 80px;
+    }
+
+    .loginbtn{
+        width: 270px;
+    }
+ 
+    .loggbtn{
+        width: 270px;
+    }
+
+    .logincontainer p{
+        margin: 35px 0 0 80px;
+    }      
 }
