@@ -1,35 +1,35 @@
- body{
+body{
     width: 100%;
  }
  
-.logincontainer{
+.signupcontainer{
     display: flex;
     flex-direction: row;
 }
 
 
-.login{
+.signup{
     background: var(--login-white);
     width: 50%;
 }
 
-.loginimage{
+.signupimage{ 
     background: var(--login-pink);
     width: 50%;
 }
 
-.loginimage .logbrand{
+.signupimage .signbrand{
     font-weight: 700;
     font-size: 90px;
     text-align: center;
     color: var(--log-white);
 }
 
-.logbrand > span{
+.signbrand > span{
     color: var(--text-black);
 }
-
-.logimg{
+ 
+.signimg{
     width: 390px;
     height: 520px;
     align-self: flex-end;
@@ -40,15 +40,15 @@
     margin: 30px 0 0 600px;
 }
 
-.logbg{
+.signbg{
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 300px;
-    margin: -40px 0 0 -350px;
+    margin: -40px 0 0 -500px;
     color: var(--logbg);
 }
 
-.logh1{
+.signh1{
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 70px;
@@ -62,15 +62,20 @@
     color: var(--footer-text);
 }
 
-.logform .email, .logform .password{
+.signform .email{
     justify-content: center;
     margin-top: 40px;
 }
 
-.email input, .password input{
+.signform .password{
+    justify-content: center;
+    margin-top: 20px;
+}
+ 
+.email input, .password input, .paswd input{
     width: 350px;
 }
-
+ 
 .email{
     margin-right: 50px;
 }
@@ -79,11 +84,11 @@
     margin-top: 30px;
 }
 
-.fgtpswd{
-    margin: 20px 0 0 290px;
+.paswd{
+    margin: 110px 0 0 -110px;
 }
 
-.loginbtn{
+.signupbtn{
     width: 350px;
     margin-top: 10px;
     background: #FF4D47;
@@ -92,35 +97,25 @@
     color: #ffffff;
 }
 
-.loginbtn:hover{
+.signupbtn:hover{
     background: #FF4D47;
     color: #ffffff;
 }
 
-.loggbtn{
-    width: 350px;
-    /* margin-top: 10px; */
-    background: transparent;
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--text-black);
-    border: 1px solid var(--text-black);
-}
-
-.logincontainer p{
+.signupcontainer p{
     font-weight: 700;
     font-size: 18px;
     color: var(--footer-text);
     margin: 60px 0 0 120px;
 }
 
-.signups a{
+.login a{
     color: #FF4D47;
 }
 
-.signups a:hover{
+.login a:hover{
     color: var(--footer-text);
-}
+} 
 
 
 
@@ -129,15 +124,15 @@
         width: 100%;
     }
 
-    .logincontainer{
+    .signupcontainer{
         flex-flow: column wrap;
     }
 
-    .loginimage{
+    .signupimage{
         display: none;
     }
 
-    .login{
+    .signup{
         width: 768px;
         overflow: hidden;
     }
@@ -146,12 +141,7 @@
         margin: 20px 0 0 700px;
     }
 
-    .logbg{
-        width: 768px;
-        margin-top: -50px;
-    }
-
-    .logh1{
+    .signh1{
         margin: -250px 0 0 200px;
     }
 
@@ -163,18 +153,21 @@
         margin: 10px 0 0 200px;
     }
 
-    .fgtpswd {
-        margin: 15px 0 0 390px;
-    }
-    
-    .mb-lg-3, .col-12 {
-        margin-left: 200px;
+    .paswd{
+        margin: 20px 0 0 200px;
     }
 
-    .logincontainer p{
-        margin: 35px 0 0 220px;
+    .signupbtn{
+        margin: 0 0 0 100px;
+    }
+
+    .signupcontainer p{
+        margin-left: 230px;
+        
     }
 }
+
+
 
 
 @media screen and (max-width:426px){
@@ -183,12 +176,12 @@
         overflow: hidden;
     }
 
-    .logincontainer{
+    .signupcontainer{
         width: 425px;
         overflow: hidden;
     }
 
-    .login{
+    .signup{
         width: 425px;
     }
     
@@ -196,56 +189,49 @@
         margin: 50px 0 0 360px;
     }
 
-    .logbg{ 
+    .signbg{ 
         width: 425px;
         font-size: 250px;
-        margin: -30px 0 0 -300px;
+        margin: -30px 0 0 -430px;
     }
  
-    .logh1{
+    .signh1{
         margin: -190px 0 -30px 80px;
     }
 
-    .logform{
+    .signform{
         width: 425px;
         overflow: hidden;
     }
 
     .email{
-        margin: 0 0 -30px 80px;
+        margin: 0 0 -5px 80px;
     }
 
     .password{
         margin-left: 80px;
     }
 
-    .email input, .password input{
+    .email input, .password input, .paswd input{
         width: 270px;
     }
 
-    .fgtpswd {
-        margin: 10px 0 0 190px;
-    }
- 
-    .mb-lg-3, .col-12 {
+    .paswd{
         margin-left: 80px;
     }
 
-    .loginbtn{
+    .signupbtn{
         width: 270px;
-    }
- 
-    .loggbtn{
-        width: 270px;
+        margin-left: -20px;
     }
 
-    .logincontainer p{
+    .signupcontainer p{
         margin: 35px 0 0 80px;
     }      
 }
 
 
-
+/* 
 @media screen and (max-width:321px){
     body{
         width: 100%;
@@ -311,4 +297,4 @@
     .logincontainer p{
         margin: 45px 0 0 25px;
     }       
-}
+}  */
