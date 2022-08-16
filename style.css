@@ -387,8 +387,8 @@ label{
 
     nav .menu-btn i{
       display: block;
-      /* padding-left: 400px; */
     }
+
     #click:checked ~ .menu-btn i:before{
       content: "\f00d";
     }
@@ -401,8 +401,10 @@ label{
       width: 100%;
       text-align: center;
       display: block;
+      z-index: 5000000;
       transition: all 0.3s ease;
     }
+    
     #click:checked ~ ul{
       left: 0;
     }
