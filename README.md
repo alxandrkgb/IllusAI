@@ -14,7 +14,7 @@ Not a fully complete website
 - [Gyekye Alexander](https://www.github.com/alxandrkgb) FrontEnd Developer
 
 
-- [Michael Mensah](https://www.github.com/username) UI/UX Designer
+- [Michael Mensah](https://www.behance.net/derez) UI/UX Designer
 
 
 ## Demo
