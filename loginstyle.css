@@ -130,6 +130,7 @@
     }
 
     .logincontainer{
+        width: 765px;
         flex-flow: column wrap;
         justify-content: center;
     }
