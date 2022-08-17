@@ -39,5 +39,5 @@ HTML, CSS, Javascript
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/alxandrkgb/IllusAI/blob/main/LICENSE)
 
