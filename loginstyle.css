@@ -248,73 +248,88 @@
     }      
 }
 
-
-
-@media screen and (max-width:321px){
+@media screen and (max-width:376px){
     body{
         width: 100%;
         overflow: hidden;
     }
 
     .logincontainer{
-        width: 320px;
-        overflow: hidden;
+        width: 375px;
         justify-content: center;
+        overflow: hidden;
+    }
+
+    .login{
+        width: 375px;
+        overflow: hidden;
+    }
+
+    .toggler{
+        display: none;
+    }
+
+    .logbg{
+        width: 375px;
+        font-size: 220px;
+        margin-right: 0;
+    }
+
+    .logh1{
+        margin-left: 55px;
+        margin-right: 0;
+    }
+
+    .logform{
+        width: 375px;
+    }
+
+    .email, .password, .mb-lg-3, .col-12{
+        margin-left: 55px;
+        margin-right: 0;
+    }
+
+    .email input, .password input, .loginbtn, .loggbtn{
+        width: 250px;
+    }
+
+    .fgtpswd{
+        margin-left: 130px;
+        margin-right: 0;
+    }
+
+    .logincontainer p{
+        margin-left: 60px;
+        margin-right: 0;
+        font-size: 17px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:321px){
+    .logincontainer{
+        width: 320px;
     }
 
     .login{
         width: 320px;
     }
-    
-    .toggler{
-        display: none;
-        margin: 40px 0 0 270px;
-    }
 
-    .logbg{ 
-        width: 320px;
-        font-size: 200px;
-        margin: -30px 0 0 -250px;
-    }
- 
     .logh1{
-        margin: -150px 0 -30px 40px;
+        margin-left: 30px;
+      }
+    .email, .password, .mb-lg-3, .col-12{
+        margin-left: 30px;
     }
 
-    .logform{
-        width: 320px;
-        overflow: hidden;
-    }
-
-    .email{
-        margin: 0 0 -15px 40px;
-    }
-
-    .password{
-        margin-left: 40px;
-    }
-
-    .email input, .password input{
-        width: 230px;
-    }
-
-    .fgtpswd {
-        margin: 10px 0 0 115px;
-    }
-  
-    .mb-lg-3, .col-12 {
-        margin-left: 40px;
-    }
-
-    .loginbtn{
-        width: 230px;
-    }
-  
-    .loggbtn{
-        width: 230px;
+    .fgtpswd{
+        margin-left: 110px;
     }
 
     .logincontainer p{
-        margin: 45px 0 0 25px;
-    }       
-}
+        margin-left: 30px;
+    }
+} 
