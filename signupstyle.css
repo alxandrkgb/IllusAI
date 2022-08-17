@@ -126,6 +126,7 @@ body{
 
     .signupcontainer{
         flex-flow: column wrap;
+        justify-content: center;
     }
 
     .signupimage{
@@ -179,6 +180,7 @@ body{
     .signupcontainer{
         width: 425px;
         overflow: hidden;
+        justify-content: center;
     }
 
     .signup{
@@ -186,6 +188,7 @@ body{
     }
     
     .toggler{
+        display: none;
         margin: 50px 0 0 360px;
     }
 

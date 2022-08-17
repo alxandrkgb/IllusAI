@@ -131,6 +131,7 @@
 
     .logincontainer{
         flex-flow: column wrap;
+        justify-content: center;
     }
 
     .loginimage{
@@ -186,6 +187,7 @@
     .logincontainer{
         width: 425px;
         overflow: hidden;
+        justify-content: center;
     }
 
     .login{
@@ -193,6 +195,7 @@
     }
     
     .toggler{
+        display: none;
         margin: 50px 0 0 360px;
     }
 
@@ -255,6 +258,7 @@
     .logincontainer{
         width: 320px;
         overflow: hidden;
+        justify-content: center;
     }
 
     .login{
@@ -262,6 +266,7 @@
     }
     
     .toggler{
+        display: none;
         margin: 40px 0 0 270px;
     }
 
